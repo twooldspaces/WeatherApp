@@ -66,10 +66,10 @@
 		BAEEA63D270841A5006D7869 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				BAEEA6562708427D006D7869 /* Models */,
-				BAEEA65727084285006D7869 /* View Controllers */,
+				BAEEA6562708427D006D7869 /* Model */,
+				BAEEA65727084285006D7869 /* Controller */,
+				BAEEA6552708426C006D7869 /* View */,
 				BAEEA65C27085541006D7869 /* Extensions */,
-				BAEEA6552708426C006D7869 /* Views */,
 				BAEEA65427084256006D7869 /* Supporting files */,
 			);
 			path = weatherApp;
@@ -87,31 +87,31 @@
 			path = "Supporting files";
 			sourceTree = "<group>";
 		};
-		BAEEA6552708426C006D7869 /* Views */ = {
+		BAEEA6552708426C006D7869 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				BAEEA644270841A5006D7869 /* Main.storyboard */,
 				BAEEA649270841A7006D7869 /* LaunchScreen.storyboard */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
-		BAEEA6562708427D006D7869 /* Models */ = {
+		BAEEA6562708427D006D7869 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				BAEEA66227088BE4006D7869 /* NetworkWeatherManager.swift */,
 				BAEEA66B27089C97006D7869 /* CurrentWeatherData.swift */,
 				BAEEA67027099896006D7869 /* CurrentWeather.swift */,
 			);
-			path = Models;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		BAEEA65727084285006D7869 /* View Controllers */ = {
+		BAEEA65727084285006D7869 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				BAEEA6592708483A006D7869 /* MainViewController.swift */,
 			);
-			path = "View Controllers";
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		BAEEA65C27085541006D7869 /* Extensions */ = {
