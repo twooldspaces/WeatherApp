@@ -32,18 +32,6 @@ class NetworkWeatherManager {
     }
         performRequset(withURLString: urlString)
     }
-//
-//    func fetchCurrentWeather (forCity city: String ) {
-//        let urlString = "https://api.openweathermap.org/data/2.5/weather?q=\(city)&appid=\(apiKey)&units=metric"
-//
-//        performRequset(withURLString: urlString)
-//    }
-//
-//    func fetchCurrentWeather (forLatitude latitude: CLLocationDegrees, longitude: CLLocationDegrees ) {
-//        let urlString = "https://api.openweathermap.org/data/2.5/weather?lat=\(latitude)&lon= \(longitude)&appid=\(apiKey)&units=metric"
-//
-//        performRequset(withURLString: urlString)
-//    }
     
     fileprivate func performRequset(withURLString urlString: String) {
         guard let url = URL(string: urlString) else { return }
