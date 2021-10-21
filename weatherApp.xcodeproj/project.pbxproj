@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		BAEEA63F270841A5006D7869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA63E270841A5006D7869 /* AppDelegate.swift */; };
 		BAEEA641270841A5006D7869 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA640270841A5006D7869 /* SceneDelegate.swift */; };
-		BAEEA643270841A5006D7869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA642270841A5006D7869 /* ViewController.swift */; };
 		BAEEA646270841A5006D7869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEEA644270841A5006D7869 /* Main.storyboard */; };
 		BAEEA648270841A7006D7869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAEEA647270841A7006D7869 /* Assets.xcassets */; };
 		BAEEA64B270841A7006D7869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAEEA649270841A7006D7869 /* LaunchScreen.storyboard */; };
+		BAEEA65A2708483A006D7869 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA6592708483A006D7869 /* MainViewController.swift */; };
+		BAEEA65E270855BF006D7869 /* AlertController+MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA65D270855BF006D7869 /* AlertController+MainVC.swift */; };
+		BAEEA66327088BE4006D7869 /* NetworkWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA66227088BE4006D7869 /* NetworkWeatherManager.swift */; };
+		BAEEA66727088D74006D7869 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA66627088D74006D7869 /* Constants.swift */; };
+		BAEEA66C27089C97006D7869 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA66B27089C97006D7869 /* CurrentWeatherData.swift */; };
+		BAEEA67127099896006D7869 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEEA67027099896006D7869 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BAEEA63B270841A5006D7869 /* weatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEEA63E270841A5006D7869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAEEA640270841A5006D7869 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAEEA642270841A5006D7869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAEEA645270841A5006D7869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAEEA647270841A7006D7869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAEEA64A270841A7006D7869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAEEA64C270841A7006D7869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAEEA6592708483A006D7869 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BAEEA65D270855BF006D7869 /* AlertController+MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+MainVC.swift"; sourceTree = "<group>"; };
+		BAEEA66227088BE4006D7869 /* NetworkWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkWeatherManager.swift; sourceTree = "<group>"; };
+		BAEEA66627088D74006D7869 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BAEEA66B27089C97006D7869 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
+		BAEEA67027099896006D7869 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		BAEEA63D270841A5006D7869 /* weatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				BAEEA63E270841A5006D7869 /* AppDelegate.swift */,
-				BAEEA640270841A5006D7869 /* SceneDelegate.swift */,
-				BAEEA642270841A5006D7869 /* ViewController.swift */,
-				BAEEA644270841A5006D7869 /* Main.storyboard */,
-				BAEEA647270841A7006D7869 /* Assets.xcassets */,
-				BAEEA649270841A7006D7869 /* LaunchScreen.storyboard */,
-				BAEEA64C270841A7006D7869 /* Info.plist */,
+				BAEEA6562708427D006D7869 /* Models */,
+				BAEEA65727084285006D7869 /* View Controllers */,
+				BAEEA65C27085541006D7869 /* Extensions */,
+				BAEEA6552708426C006D7869 /* Views */,
+				BAEEA65427084256006D7869 /* Supporting files */,
 			);
 			path = weatherApp;
+			sourceTree = "<group>";
+		};
+		BAEEA65427084256006D7869 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEA66627088D74006D7869 /* Constants.swift */,
+				BAEEA63E270841A5006D7869 /* AppDelegate.swift */,
+				BAEEA640270841A5006D7869 /* SceneDelegate.swift */,
+				BAEEA64C270841A7006D7869 /* Info.plist */,
+				BAEEA647270841A7006D7869 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		BAEEA6552708426C006D7869 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEA644270841A5006D7869 /* Main.storyboard */,
+				BAEEA649270841A7006D7869 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BAEEA6562708427D006D7869 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEA66227088BE4006D7869 /* NetworkWeatherManager.swift */,
+				BAEEA66B27089C97006D7869 /* CurrentWeatherData.swift */,
+				BAEEA67027099896006D7869 /* CurrentWeather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAEEA65727084285006D7869 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEA6592708483A006D7869 /* MainViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		BAEEA65C27085541006D7869 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BAEEA65D270855BF006D7869 /* AlertController+MainVC.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAEEA643270841A5006D7869 /* ViewController.swift in Sources */,
+				BAEEA65A2708483A006D7869 /* MainViewController.swift in Sources */,
 				BAEEA63F270841A5006D7869 /* AppDelegate.swift in Sources */,
+				BAEEA67127099896006D7869 /* CurrentWeather.swift in Sources */,
+				BAEEA66327088BE4006D7869 /* NetworkWeatherManager.swift in Sources */,
+				BAEEA65E270855BF006D7869 /* AlertController+MainVC.swift in Sources */,
 				BAEEA641270841A5006D7869 /* SceneDelegate.swift in Sources */,
+				BAEEA66C27089C97006D7869 /* CurrentWeatherData.swift in Sources */,
+				BAEEA66727088D74006D7869 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +347,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = weatherApp/Info.plist;
+				INFOPLIST_FILE = "weatherApp/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +365,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = weatherApp/Info.plist;
+				INFOPLIST_FILE = "weatherApp/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
